@@ -1,0 +1,28 @@
+cmake_minimum_required (VERSION 2.8)
+
+if(NOT "${SCRIPT_DIR}/lib")
+  file(MAKE_DIRECTORY "${SCRIPT_DIR}/lib")
+endif()
+
+set(SCRIPT_INCLUDE_DIR "${SCRIPT_DIR}/include")
+set(SCRIPT_SOURCE_DIR "${SCRIPT_DIR}/source")
+set(SCRIPT_LIB_DIR "${SCRIPT_DIR}/lib")
+
+link_directories(${SCRIPT_LIB_DIR})
+
+include("${SCRIPT_SOURCE_DIR}/default/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/gobelin/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/player/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/archer/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/mage/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/priest/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/warrior/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/MapGenerator/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/RangeAutoAttack/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/Gauntlet/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/BomberMan/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/Stairs/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/GUILayouts/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/Players/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/Bomb/CMakeLists.txt")
+include("${SCRIPT_SOURCE_DIR}/Deflagration/CMakeLists.txt")

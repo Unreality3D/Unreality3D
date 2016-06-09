@@ -1,0 +1,10 @@
+RenderObjectType:MESH
+Name:box
+Tag:box
+Script:
+Mesh:crate.mesh
+Sound:
+GeoData:0
+Collider:0
+Position:0;0;0
+Scale:20;20;20

@@ -1,0 +1,10 @@
+Life:100
+Mana:10
+Damage:10
+Range:200
+Speed:120
+Defence:5
+AttackRate:500
+Level:1
+Exp:0
+Skills:WarriorAutoAttack.prefab

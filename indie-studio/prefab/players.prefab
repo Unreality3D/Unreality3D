@@ -1,0 +1,10 @@
+RenderObjectType:MESH
+Name:players
+Tag:players
+Script:Players
+Mesh:warrior.mesh
+Sound:
+GeoData:0
+Collider:1
+Position:0;0;0
+Scale:2;2;2

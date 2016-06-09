@@ -1,0 +1,10 @@
+RenderObjectType:MESH
+Name:stairs
+Tag:stairs
+Script:Stairs
+Mesh:stairs.mesh
+Sound:
+GeoData:0
+Collider:1
+Position:0;20;0
+Scale:2;2;2

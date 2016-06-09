@@ -1,0 +1,10 @@
+RenderObjectType:MESH
+Name:floor
+Tag:floor
+Script:
+Mesh:floor.mesh
+Sound:
+GeoData:0
+Collider:0
+Position:0;0;0
+Scale:20;1;20

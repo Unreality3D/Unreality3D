@@ -1,0 +1,10 @@
+RenderObjectType:MESH
+Name:deflagration
+Tag:deflagration
+Script:Deflagration
+Mesh:crate.mesh
+Sound:
+GeoData:0
+Collider:1
+Position:0;0;0
+Scale:10;10;10

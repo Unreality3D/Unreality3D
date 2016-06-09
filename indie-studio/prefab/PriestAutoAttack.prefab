@@ -1,0 +1,11 @@
+RenderObjectType:MESH
+Name:ccc
+Tag:projectile
+Script:RangeAutoAttack
+Mesh:boomerang.mesh
+Sound:
+GeoData:0
+Collider:1
+Position:0;0;0
+Rotation:1;1;1;1
+Scale:2;2;2

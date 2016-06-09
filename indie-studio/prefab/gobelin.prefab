@@ -1,0 +1,8 @@
+RenderObjectType:MESH
+Name:gobelin
+Tag:enemy
+Mesh:penguin.mesh
+Sound:Sound/GobelinAttack.wav;Sound/GobelinCoup.wav;Sound/GobelinDeath.wav
+GeoData:0
+Collider:1
+Script:Gobelin

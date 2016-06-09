@@ -1,0 +1,11 @@
+RenderObjectType:EMPTY
+Name:empty
+Tag:empty
+Mesh:
+Script:Default
+Sound:
+GeoData:0
+Collider:1
+Position:0;0;0
+Rotation:0;0;0;0
+Scale:1;1;1

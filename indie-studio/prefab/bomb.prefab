@@ -1,0 +1,10 @@
+RenderObjectType:MESH
+Name:bomb
+Tag:bomb
+Script:Bomb
+Mesh:crate.mesh
+Sound:
+GeoData:0
+Collider:1
+Position:0;0;0
+Scale:5;10;5

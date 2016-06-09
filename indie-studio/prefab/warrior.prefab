@@ -1,0 +1,11 @@
+RenderObjectType:MESH
+Name:Player
+Tag:player
+Script:Warrior
+Mesh:warrior.mesh
+Sound:Sound/WarriorAttack.wav;Sound/WarriorCoup.wav;Sound/WarriorDeath.wav
+GeoData:1
+Collider:1
+Position:0;20;0
+Rotation:0;0;0;0
+Scale:2;2;2
